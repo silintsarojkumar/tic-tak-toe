@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="buttons">
+        <button id="playSig" onclick="playsig()">Single play</button>
+        <button id="playMul" onclick="playmul()">Multi Play</button>
+    </div>
+    <section id="multi" >
+        <div class="main-box">
+            <div class="message hide">
+        <p id="msg"></p>
+        <button id="new" >New Game</button>
+        </div>
+     <main class="main">
+
+        <h1 class="game-name">TIC    <span> TAC </span>   TOE</h1>
+
+      <div class="contenor">
+      <div class="game">
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        <button id="box" ></button>
+        
+       </div>
+    
+        </div>
+        <button id="reset" type="reset">Reset Game</button>
+   
+        </main>
+        </div>
+
+    </section>
+   <div id="single">
+    
+    <div>
+        <div class="main-box-ai">
+            <div class="message hide">
+        <p id="msg"></p>
+        <button id="new" >New Game</button>
+    </div>
+        <h1 class="game-name">TIC    <span> TAC </span>   TOE</h1>
+        <table class="contenor" >
+            <tr >
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="endgame">
+        <div class="text"></div>
+    </div>
+    <button type="reset" class="reset" id="reset" class="compreset" onclick="startGame()" >
+        Reset 
+    </button>
+    
+        
+       
+    
+</div>
+    <script src="hi.js">
+        
+       
+    </script>
+</body>
+</html>
