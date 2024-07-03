@@ -147,6 +147,20 @@ body{
           align-items: center;
           gap: 1.5vmin;
       }
+      .cell{
+        height:28vmin;
+        width: 28vmin;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+        font-size: 12vmin;
+        color: red;
+        text-align: center;
+        background-color: rgba(255, 0, 251, 0.364);
+        backdrop-filter: blur(10px);
+        cursor: pointer;
+
+      }
       #box{
           height:28vmin;
           width: 28vmin;
@@ -224,6 +238,7 @@ body{
     gap: 10px;
     display: none;
 }
+
 
 .cell{
     height: 18vmin;
