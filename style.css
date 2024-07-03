@@ -147,7 +147,7 @@ body{
           align-items: center;
           gap: 1.5vmin;
       }
-      .cell{
+      .game .cell{
         height:28vmin;
         width: 28vmin;
         border-radius: 10px;
